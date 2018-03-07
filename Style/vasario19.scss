@@ -1,0 +1,293 @@
+.navbar {
+  position: absolute;
+  width: 100%;
+  background-color: transparent !important;
+  color: white;
+
+  .navbar-brand {
+    text-transform: uppercase;
+    color: white;
+  }
+  .nav-link {
+    text-transform: uppercase;
+    color: white !important;
+  }
+}
+.jumbotron {
+  background-image: url(http://miriadna.com/desctopwalls/images/max/Nature-of-Brazil.jpg);
+  background-repeat: no-repeat;
+  background-size: 1426px auto;
+  height: 500px;
+    .jumbotrontext {
+      width: 760px;
+      height: 190px;
+      color: white;
+        h1 {
+          text-align: center;
+          }
+        p {
+          text-align: center;
+          font-size: 20px;
+          }
+      .btn {
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 100px;
+        border: 2px solid white;
+        text-transform: uppercase;
+        font-size: 15px;
+      }
+    }
+}
+.cta {
+    padding-bottom: 50px !important;
+    padding-top: 50px !important;
+    background-color: rgba(71, 130, 211, 0.03);
+    .btn {
+      border-radius: 100px;
+      text-transform: uppercase;
+    }
+}
+.info {
+  margin-top: 50px;
+  .row {
+    .icon-box{
+      text-align: center;
+      img {
+        width: 100px;
+      }
+      p {
+        margin: 15px;
+      }
+    }
+  }
+}
+.container-photo {
+  margin: 0px;
+
+  .row {
+    .photo{
+      padding: 0px !important;
+      background-color: red;
+      width: 500px;
+      height: 300px;
+      overflow: hidden;
+
+          .box{
+            transition: all .35s;
+          }
+          .box:hover{
+            transform: translateY(-21%);
+          }
+
+        .text-photo {
+          margin-top: -5px;
+          background: #4782d3;
+          width: 500px;
+          height: 70px;
+            h5 {
+              margin-left: 30px;
+              padding-top: 10px;
+              padding-bottom: 0px;
+            }
+            p {
+              padding-top: 0px;
+              margin-left: 30px;
+              font-style: italic;
+              font-size: 13px;
+              margin-top: -13px;
+            }
+          }
+        }
+      }
+}
+    img {
+      width: 475px;
+    }
+
+
+
+.stories {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.carouselmain {
+  background: #f2f2f2;
+  .carousel{
+    .carousel-item {
+      background: #f2f2f2;
+      height: 345px;
+      line-height: 345px;
+      p{
+      // height: 345px;
+      color: white;
+    }
+    }
+
+  }
+}
+
+.team {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+}
+
+#teamtext {
+  text-transform: uppercase;
+}
+
+.container-team {
+  .row{
+    .contain {
+        // position: relative;
+        padding: 0 !important;
+        img{
+          position: relative;
+          width: 100%;
+        }
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #e6e6e6;
+        &:hover{
+          opacity: 0.8;
+        }
+      }
+  }
+
+  }
+}
+.text {
+  display: flex;
+  padding-top: 39%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+   .profession {
+     font-style: italic;
+   }
+   .separate-line {
+     height: 1px;
+     width: 80px;
+     background-color: white;
+     margin: auto;
+   }
+
+
+}
+
+#up {
+  float: right;
+}
+
+.portfolio-last {
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    .containeris {
+      .btn {
+        border: 2px solid #D3D3D3;
+        background-color: transparent;
+        color: #A9A9A9;
+        font-size: 15px;
+        text-transform: uppercase;
+      }
+    }
+    img {
+      width: 540px;
+      border-radius: 10px;
+    }
+  }
+}
+.footer {
+  background-color: #222;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+
+  .container-footer {
+    max-width: 1140px;
+
+    .row {
+      .column {
+        h4 {
+          text-transform: uppercase;
+          margin-top: 15px;
+          margin-bottom: 15px;
+          font-size: 16px;
+        }
+        .fox {
+          border-radius: 5px;
+          width: 70px;
+          margin-right: 10px;
+
+        }
+        a {
+          text-decoration: none;
+          color: white;
+          font-size: 14px;
+        }
+        .map {
+          width: 255px;
+        }
+        .media-body {
+          font-size: 14px;
+        }
+
+        p {
+          font-size: 15px;
+        }
+        .btn {
+          border-radius: 5px;
+          border: 1px solid white;
+        }
+
+
+      }
+    }
+  }
+}
+.footer-bottom {
+  background-color: #000;
+  padding: 15px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  .footer-bottom-container {
+    width: 1000px;
+
+    .row {
+      flex-wrap: nowrap;
+      .foot-clmn {
+        margin-right: 150px;
+
+      }
+      .foot-clmn2 {
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+      .copyright {
+        font-size: 15px;
+        margin-top: 7px;
+      }
+
+      .icons {
+        a {
+          text-decoration: none;
+          color: inherit;
+        }
+      }
+    }
+  }
+
+}
